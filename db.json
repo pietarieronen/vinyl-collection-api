@@ -1,0 +1,14 @@
+{
+  "vinyls": [
+    {
+      "id": 0,
+      "name": "I",
+      "artist": "Led Zeppelin"
+    },
+    {
+      "id": 1,
+      "name": "II",
+      "artist": "Led Zeppelin"
+    }
+  ]
+}
