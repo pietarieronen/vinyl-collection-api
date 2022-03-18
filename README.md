@@ -1,5 +1,5 @@
 # **Vinyl-Collection-Api Project**
 
-## db.json
+## json server
 
 ## Heroku
