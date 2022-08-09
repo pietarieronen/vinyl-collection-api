@@ -1,8 +1,16 @@
 # **Vinyl-Collection-Api Project**
 
-## json server
+## **Server App**
 
-run command:
+Start server:
+
+```
 json-server --watch db.json
+```
 
 ## Heroku
+
+```
+npm install -g heroku
+heroku login
+```
