@@ -1,7 +1,9 @@
 const jsonServer = require("json-server");
 const server = jsonServer.create();
 const router = jsonServer.router("db.json");
-const middlewares = jsonServer.defaults(["options: --read-only"]);
+const middlewares = jsonServer.defaults((options) => {
+  options.readOnly = true;
+});
 const port = process.env.PORT || 3000;
 
 server.use(middlewares);
